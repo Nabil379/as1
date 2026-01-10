@@ -38,7 +38,7 @@ nav{
          
        .container{
         
-        background: url(/assets/hero-bg.png);
+        background: url(assets/hero-bg.png);
         width: 1270px;
        height: 500px;
   display: flex;
