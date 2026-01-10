@@ -1,0 +1,208 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 25%;
+    margin:50px 50px 30px 40px
+
+    }
+    ul{
+        font-size: larger;
+        display: flex;
+        list-style: none;
+        gap: 25px;
+        cursor: pointer;
+
+    }
+    nav button{
+         background:forestgreen;
+    color:white;
+    border:none;
+      padding:10px 20px;
+         border-radius:8px;
+     cursor:pointer; }
+         
+         .Early{
+            font-size:larger;
+            
+        
+                     }
+         .note{
+            color:darkseagreen;
+         }
+         .paragraph{
+            font-size:large;
+            color: aliceblue;
+            width: 560px;
+         }
+         
+         
+       .container{
+        
+        background: url(/assets/hero-bg.png);
+        width: 1270px;
+       height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;     
+ 
+}
+
+
+.button section{
+    display: flex;
+}
+
+
+    .thinking{
+        color: white;
+        font-size:xx-large;
+    }
+    .but{
+        font-size:large;
+        color: aliceblue;
+        background-color:darkcyan ;
+        padding: 5px 10px 5px;
+        cursor: pointer;
+        border: none;
+        border-radius:5px;
+   
+    
+    } 
+    .but img{
+      width: 15px;
+      color: white;
+     
+    }
+
+    
+         .Early:before {
+            
+  content:"●" ;
+  color:darkmagenta;
+
+}
+.Early{
+    color:darkmagenta;
+}
+            
+         
+         .but2 img{
+            width:2.3%;
+
+         }
+         .but2{
+            color: aliceblue;
+            font-size: larger;
+            background-color:transparent; 
+           border: 30px;
+           cursor: pointer;
+         }
+         .another{
+            text-align: center;
+            margin-top:3%;
+        
+            }
+         .pa2{
+            text-align: center;
+            margin-top: 1%;
+         }
+        body{
+             background:aliceblue
+            }
+
+.container{
+      max-width:1200px; 
+     margin:auto;
+      padding:80px 20px; }
+
+.problems{
+     display:flex;
+       gap:24px;
+ margin-top:40px; }
+
+.problem-card{
+     background:white;
+      padding:30px; 
+      border-radius:12px;
+       text-align:center; 
+        }
+
+
+
+.icon{ width:48px;
+     height:48px;
+    background-color:blueviolet;
+        border-radius:50%;
+         display:flex;
+          align-items:center; 
+      justify-content:center;} 
+
+
+
+.solution{ display:grid;
+     grid-template-columns:1fr 1fr; 
+     gap:60px;
+  align-items:center; 
+margin-top:180px;
+margin-right: 270px;
+margin-left: 200px; }
+
+.brain{ background:white;
+     border-radius:50%; 
+     width:300px; 
+height:300px;
+      display:flex;
+     align-items:center; 
+  justify-content:center;
+       margin:auto;
+     font-size:80px; }
+.solution-text span{
+    color:rgb(13, 248, 13);
+    font-weight:600;} .
+     
+    
+
+.solution-text ul{
+    list-style:none;
+}
+
+     .solution-text li{margin-bottom:12px;
+    }
+
+      .solution-text li::before{margin-right:10px;
+    }
+
+.cta{
+     background:antiquewhite;
+     margin-top:200px; 
+     padding:80px 20px;
+      text-align:center; 
+    border-radius:16px; }
+
+.cta h2{
+    font-size:32px;}
+ .cta p{color:#64748b;
+    margin:12px 0 24px;}
+
+.cta button{ background:darkorchid;
+    color:white;
+    border:none;
+      padding:14px 28px;
+         border-radius:8px;
+     cursor:pointer; }
+
+footer{ background:darkslategrey;
+     padding:40px 20px; 
+     margin-top:80px;
+border-radius: 3px;
+ }
+
+.footer-inner{ 
+    max-width:2000px;
+    max-height:1500px;
+      display:flex;
+      justify-content: space-between;
+   flex-wrap:  wrap;
+       margin-right:25px;
+    margin-left:25px;}
